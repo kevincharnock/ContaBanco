@@ -9,5 +9,10 @@ public class Pix extends TypeToPayment {
          System.out.println(value);
      }
 
-
+    @Override
+    public String toString() {
+        return "Pix{" +
+                "value=" + value +
+                "} " + super.toString();
+    }
 }

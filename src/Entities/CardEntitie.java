@@ -17,6 +17,14 @@ public class CardEntitie {
         this.cardType = cardType;
     }
 
+    @Override
+    public String toString() {
+        return "CardEntitie{" +
+                "cardNumber='" + cardNumber + '\'' +
+                ", cardType=" + cardType +
+                '}';
+    }
+
     public String getCardNumber() {
         return cardNumber;
     }

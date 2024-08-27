@@ -16,6 +16,10 @@ public class BankAccount extends CodeEntitie {
 
     }
 
+    public double addMoney(double value){
+        return this.balanceAccount += value;
+    }
+
     //TODO: IMPLEMENTAR METODO HISTORICO
 
 

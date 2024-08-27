@@ -2,10 +2,21 @@ package BankAccounts.TypeOfPayments;
 
 public class TypeToPayment {
 
-    private double value;
+    protected double value;
 
     public double getValue() {
-        return value;
+        return this.value;
+    }
+
+    public void setValue(double value) {
+        this.value = value;
+    }
+
+    @Override
+    public String toString() {
+        return "TypeToPayment{" +
+                "value=" + value +
+                '}';
     }
 }
 

@@ -1,8 +1,10 @@
 package BankAccounts.TypeOfPayments.Debit;
 
-public class DebitCard {
+import Entities.CardEntitie;
 
-    private String cardNumber;
-    private double type;
+public class DebitCard extends CardEntitie {
 
+    public DebitCard(String cardNumber, int cardType) {
+        super(cardNumber, cardType);
+    }
 }
